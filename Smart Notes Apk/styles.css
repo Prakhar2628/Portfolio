@@ -1,0 +1,194 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #fff; /* Light text color */
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    background: #1e1e1e; /* Darker container background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(100, 0, 200, 0.3); /* Violet shadow */
+    margin: auto;
+}
+
+h1, h2, h3 {
+    color: #e0e0e0; /* Lighter heading color */
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #333; /* Darker border */
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #333; /* Dark input background */
+    color: #fff; /* Light input text color */
+}
+
+textarea {
+    height: 120px;
+}
+
+button {
+    padding: 12px 20px;
+    background: #673ab7; /* Violet button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #512da8; /* Darker violet on hover */
+}
+
+#notes-container {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.note {
+    background: #212121; /* Dark note background */
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(100, 0, 200, 0.1); /* Subtle violet shadow */
+}
+
+.note h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: #fff; /* Light title color */
+}
+
+.note p {
+    margin-bottom: 10px;
+    color: #ddd; /* Lighter text color */
+}
+
+.note small {
+    color: #9e9e9e; /* Muted timestamp color */
+}
+
+.note button {
+    background-color: #d32f2f; /* Red delete button */
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+    margin-right: 5px;
+}
+
+.note button:hover {
+    background-color: #c62828; /* Darker red on hover */
+}
+
+/* Styles for tags */
+.tags-container {
+    margin-top: 5px;
+}
+
+.tag {
+    display: inline-block;
+    background-color: #7e57c2; /* Light violet tag */
+    color: white;
+    padding: 3px 8px;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 0.8em;
+}
+
+/* Add responsive styles */
+@media screen and (max-width: 600px) {
+    .container {
+        max-width: 100%;
+        padding: 15px;
+        margin: 10px;
+    }
+
+    input[type="text"],
+    textarea {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    button {
+        padding: 10px 15px;
+        font-size: 14px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .note {
+        padding: 12px;
+    }
+
+    .note h3 {
+        font-size: 16px;
+    }
+
+    .note p {
+        font-size: 14px;
+    }
+
+    .note button {
+        width: auto;
+        padding: 6px 10px;
+        font-size: 12px;
+    }
+
+    .tag {
+        font-size: 0.7em;
+        padding: 2px 6px;
+        margin: 2px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    body {
+        padding: 10px;
+    }
+
+    .container {
+        padding: 10px;
+        margin: 5px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    input[type="text"],
+    textarea {
+        font-size: 13px;
+        padding: 6px;
+    }
+
+    .note {
+        padding: 8px;
+    }
+
+    .note h3 {
+        font-size: 14px;
+    }
+
+    .note p {
+        font-size: 12px;
+    }
+}
