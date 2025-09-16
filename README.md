@@ -7,7 +7,6 @@
 
 A modern, responsive portfolio website showcasing my projects, skills, and professional journey.
 
-![Portfolio Screenshot](Images/Portfolio.jpg)
 
 ## ✨ Features
 
@@ -82,17 +81,6 @@ A modern, responsive portfolio website showcasing my projects, skills, and profe
    # Using Node.js
    npx serve
    ```
-
-## 📷 Project Screenshots
-
-### Home Page
-![Home Page](Images/Portfolio.jpg)
-
-### Projects Section
-![Projects](Images/Project1.png)
-
-### Contact Form
-![Contact](Images/project2.png)
 
 ## 🤝 Connect With Me
 
